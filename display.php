@@ -27,7 +27,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
 <th>Email</th>
 </tr>
 <?php
-$conn = mysqli_connect("localhost", "root", "root", "studentdb");
+$conn = mysqli_connect("remotemysql.com", "ZH3ESfMgtz", "OXLzZ9vKnG", "ZH3ESfMgtz");
 // Check connection
 if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
